@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Gamja+Flower&display=swap");
+
+.intro-page {
+  background: #d8d8d8;
+  width: 360px;
+  height: 600px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.line {
+  border: 1px black;
+  width: 100%;
+}
+
+.name {
+  font-family: "Gamja Flower", cursive;
+  font-size: xx-large;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.img {
+  width: 50%;
+  display: block;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.age {
+  font-family: "Gamja Flower", cursive;
+  font-size: xx-large;
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.school {
+  font-family: "Gamja Flower", cursive;
+  font-size: xx-large;
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.live {
+  font-family: "Gamja Flower", cursive;
+  font-size: xx-large;
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
